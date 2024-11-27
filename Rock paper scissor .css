@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 79%, 72%);
+    color: hwb(0 100% 0%);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Choise{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top: 60px;
+}
+.Choise>#Rock{
+margin-left: 35px;
+}
+.Choise>#Paper{
+    margin-left: 55px;
+    }
+    .Choise>#Scissor{
+        margin-left: 75px;
+        }
+        button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 45%;
+        }
+.buttons>.PlayAgain{
+    width: 90px;
+    height: 40px;
+     background: #FF4742;
+     border: 1px solid #FF4742 ;
+     border-radius: 6px;
+     box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+     
+     color: #FFFFFF;
+     cursor: pointer;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: 50%;
+     font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+     font-size: 16px;
+     font-weight: 800;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+button{
+    width: 90px;
+    height: 40px;
+     background: #add8e6;
+     border: 1px solid #add8e6 ;
+     border-radius: 6px;
+     box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+     
+     color:#000000;
+     cursor: pointer;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: 20%;
+     font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+     font-size: 16px;
+     font-weight: 800;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
