@@ -1,5 +1,4 @@
-
-  let Choise=["Rock","paper","Scissor"];
+let Choise=["Rock","paper","Scissor"];
 $("button").click(function game() {
   
 
@@ -62,12 +61,8 @@ $("#Scissor").click(function () {
     
     
   }
-  $(".playAgain").click($("h3").text(""))
+})
+$(".playAgain").click($("h3").text(""))
   $(".playAgain").click(location.reload)
+})
 
-    
-  
-  
-  
-})
-})
